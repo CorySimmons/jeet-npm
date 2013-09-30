@@ -35,7 +35,7 @@ httpsload = (url, cb) ->
         cb(true)
 
 getGithubFiles = (url, done) ->
-    ignore = ["README.md", "watch"]
+    ignore = ["README.md", "watch", "bower.json"]
     results = []
     httpsload url, (err, json) ->
         return done(true) if err

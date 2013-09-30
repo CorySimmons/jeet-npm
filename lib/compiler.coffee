@@ -4,7 +4,7 @@ fs = require "fs"
 
 exports = module.exports = (path) ->
     file = fs.readFileSync path + "custom.styl"
-    stylus(file.toString()).set('paths', [path]).use(axis()).render (err, css) ->
+    stylus(file.toString(), { compress: true }).set('paths', [path]).use(axis()).render (err, css) ->
         if err
             msg = err.message.split "\n"
             fileline = msg.shift().split ":"
