@@ -65,7 +65,7 @@ downloadGithubFiles = (foldername, files, cb) ->
             httpsload file, (err, json) ->
                 cb(true) if err
                 data = JSON.parse(json)
-                contents = new Buffer(data.content, "base64").toString()
+                contents = new Buffer(data.content, "base64")
                 fs.writeFile foldername + "/" + data.path, contents, (err) ->
                     cb(true) if err
                     cycle()
