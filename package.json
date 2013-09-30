@@ -1,6 +1,10 @@
 {
   "name": "jeet",
+<<<<<<< HEAD
   "version": "3.0.0",
+=======
+  "version": "0.5.6",
+>>>>>>> 004d8ce9151496ac0564c959e35b89a4e16d72ce
   "description": "A light, semantic, responsive, CSS framework built from the best parts.",
   "keywords": [
     "css",

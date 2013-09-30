@@ -35,7 +35,11 @@ httpsload = (url, cb) ->
         cb(true)
 
 getGithubFiles = (url, done) ->
+<<<<<<< HEAD
     ignore = ["README.md", "watch", "bower.json", "package.json"]
+=======
+    ignore = ["README.md", "watch", "bower.json"]
+>>>>>>> 004d8ce9151496ac0564c959e35b89a4e16d72ce
     results = []
     httpsload url, (err, json) ->
         return done(true) if err
@@ -65,7 +69,7 @@ downloadGithubFiles = (foldername, files, cb) ->
             httpsload file, (err, json) ->
                 cb(true) if err
                 data = JSON.parse(json)
-                contents = new Buffer(data.content, "base64").toString()
+                contents = new Buffer(data.content, "base64")
                 fs.writeFile foldername + "/" + data.path, contents, (err) ->
                     cb(true) if err
                     cycle()
