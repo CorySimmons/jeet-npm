@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/cory/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/cory/.npm/1f1177db-tar.lock
+15 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+16 verbose lock tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz /Users/cory/.npm/2e85523a-33470-0-7129938795696944-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+20 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+21 verbose tar unpack /var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+22 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+23 verbose lock tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package /Users/cory/.npm/7648dd87-33470-0-7129938795696944-package.lock
+24 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+25 verbose lock tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz /Users/cory/.npm/2e85523a-33470-0-7129938795696944-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry jeet.js
+30 silly gunzTarPerm extractEntry jeet/.latest
+31 silly gunzTarPerm extractEntry jeet/css/custom.styl
+32 silly gunzTarPerm extractEntry jeet/css/jeet.styl
+33 silly gunzTarPerm extractEntry jeet/css/typography.styl
+34 silly gunzTarPerm extractEntry jeet/img/edit_mixin.png
+35 silly gunzTarPerm extractEntry jeet/img/menu_black.png
+36 silly gunzTarPerm extractEntry jeet/img/menu_white.png
+37 silly gunzTarPerm extractEntry jeet/img/noise.png
+38 silly gunzTarPerm extractEntry jeet/index.html
+39 silly gunzTarPerm extractEntry jeet/js/main.js
+40 silly gunzTarPerm extractEntry jeet/js/minified.js
+41 silly gunzTarPerm extractEntry jeet/js/plugins.js
+42 silly gunzTarPerm extractEntry jeet/js/vendor/jquery-1.10.2.min.js
+43 silly gunzTarPerm extractEntry jeet/js/vendor/jquery-2.0.3.min.js
+44 silly gunzTarPerm extractEntry jeet/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+45 silly gunzTarPerm extractEntry jeet/js/vendor/selectivizr-1.0.2.min.js
+46 silly gunzTarPerm extractEntry jeet/js/vendor/boxsizing.htc
+47 silly gunzTarPerm extractEntry lib/app.js
+48 silly gunzTarPerm extractEntry lib/compiler.js
+49 silly gunzTarPerm extractEntry lib/create.js
+50 silly gunzTarPerm extractEntry lib/minify.js
+51 silly gunzTarPerm extractEntry lib/watcher.js
+52 silly gunzTarPerm extractEntry lib/app.coffee
+53 silly gunzTarPerm extractEntry lib/compiler.coffee
+54 silly gunzTarPerm extractEntry lib/create.coffee
+55 silly gunzTarPerm extractEntry lib/minify.coffee
+56 silly gunzTarPerm extractEntry lib/watcher.coffee
+57 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+58 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+59 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+60 silly lockFile 2e85523a-33470-0-7129938795696944-tmp-tgz tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/tmp.tgz
+61 verbose tar pack [ '/Users/cory/.npm/jeet/3.0.5/package.tgz',
+61 verbose tar pack   '/var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package' ]
+62 verbose tarball /Users/cory/.npm/jeet/3.0.5/package.tgz
+63 verbose folder /var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+64 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+65 verbose lock tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package /Users/cory/.npm/7648dd87-33470-0-7129938795696944-package.lock
+66 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+67 verbose lock tar:///Users/cory/.npm/jeet/3.0.5/package.tgz /Users/cory/.npm/e749d1b2--cory-npm-jeet-3-0-5-package-tgz.lock
+68 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+69 silly lockFile 7648dd87-33470-0-7129938795696944-package tar:///var/folders/jv/ym28v3p96x51h5gc0rhpkqnh0000gn/T/npm-25852-_0UKo8MT/1380845533470-0.7129938795696944/package
+70 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+71 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+72 silly lockFile 9c8286b1-sers-cory-npm-jeet-3-0-5-package /Users/cory/.npm/jeet/3.0.5/package
+73 verbose lock /Users/cory/.npm/jeet/3.0.5/package /Users/cory/.npm/9c8286b1-sers-cory-npm-jeet-3-0-5-package.lock
+74 silly lockFile 9c8286b1-sers-cory-npm-jeet-3-0-5-package /Users/cory/.npm/jeet/3.0.5/package
+75 silly lockFile 9c8286b1-sers-cory-npm-jeet-3-0-5-package /Users/cory/.npm/jeet/3.0.5/package
+76 verbose tar unpack /Users/cory/.npm/jeet/3.0.5/package.tgz
+77 silly lockFile 4c92f636-sers-cory-npm-jeet-3-0-5-package tar:///Users/cory/.npm/jeet/3.0.5/package
+78 verbose lock tar:///Users/cory/.npm/jeet/3.0.5/package /Users/cory/.npm/4c92f636-sers-cory-npm-jeet-3-0-5-package.lock
+79 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+80 verbose lock tar:///Users/cory/.npm/jeet/3.0.5/package.tgz /Users/cory/.npm/e749d1b2--cory-npm-jeet-3-0-5-package-tgz.lock
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry jeet.js
+85 silly gunzTarPerm extractEntry jeet/.latest
+86 silly gunzTarPerm extractEntry jeet/css/custom.styl
+87 silly gunzTarPerm extractEntry jeet/css/jeet.styl
+88 silly gunzTarPerm extractEntry jeet/css/typography.styl
+89 silly gunzTarPerm extractEntry jeet/img/edit_mixin.png
+90 silly gunzTarPerm extractEntry jeet/img/menu_black.png
+91 silly gunzTarPerm extractEntry jeet/img/menu_white.png
+92 silly gunzTarPerm extractEntry jeet/img/noise.png
+93 silly gunzTarPerm extractEntry jeet/index.html
+94 silly gunzTarPerm extractEntry jeet/js/main.js
+95 silly gunzTarPerm extractEntry jeet/js/minified.js
+96 silly gunzTarPerm extractEntry jeet/js/plugins.js
+97 silly gunzTarPerm extractEntry jeet/js/vendor/jquery-1.10.2.min.js
+98 silly gunzTarPerm extractEntry jeet/js/vendor/jquery-2.0.3.min.js
+99 silly gunzTarPerm extractEntry jeet/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+100 silly gunzTarPerm extractEntry jeet/js/vendor/selectivizr-1.0.2.min.js
+101 silly gunzTarPerm extractEntry jeet/js/vendor/boxsizing.htc
+102 silly gunzTarPerm extractEntry lib/app.js
+103 silly gunzTarPerm extractEntry lib/compiler.js
+104 silly gunzTarPerm extractEntry lib/create.js
+105 silly gunzTarPerm extractEntry lib/minify.js
+106 silly gunzTarPerm extractEntry lib/watcher.js
+107 silly gunzTarPerm extractEntry lib/app.coffee
+108 silly gunzTarPerm extractEntry lib/compiler.coffee
+109 silly gunzTarPerm extractEntry lib/create.coffee
+110 silly gunzTarPerm extractEntry lib/minify.coffee
+111 silly gunzTarPerm extractEntry lib/watcher.coffee
+112 silly lockFile 4c92f636-sers-cory-npm-jeet-3-0-5-package tar:///Users/cory/.npm/jeet/3.0.5/package
+113 silly lockFile 4c92f636-sers-cory-npm-jeet-3-0-5-package tar:///Users/cory/.npm/jeet/3.0.5/package
+114 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+115 silly lockFile e749d1b2--cory-npm-jeet-3-0-5-package-tgz tar:///Users/cory/.npm/jeet/3.0.5/package.tgz
+116 verbose chmod /Users/cory/.npm/jeet/3.0.5/package.tgz 644
+117 verbose chown /Users/cory/.npm/jeet/3.0.5/package.tgz [ 501, 20 ]
+118 silly lockFile 3a52ce78- .
+119 silly lockFile 3a52ce78- .
+120 silly publish { name: 'jeet',
+120 silly publish   version: '3.0.5',
+120 silly publish   description: 'A light, semantic, responsive, CSS framework built from the best parts.',
+120 silly publish   keywords: [ 'css', 'jeet', 'stylus' ],
+120 silly publish   homepage: 'http://jeetframework.com/',
+120 silly publish   bin: { jeet: 'jeet.js' },
+120 silly publish   main: 'jeet.js',
+120 silly publish   dependencies:
+120 silly publish    { stylus: '*',
+120 silly publish      'axis-css': '*',
+120 silly publish      'tiny-lr': '*',
+120 silly publish      cltags: '*',
+120 silly publish      'uglify-js': '*' },
+120 silly publish   readme: 'Jeet 3 NPM Package\n---\n\n[Jeet 3](https://github.com/CorySimmons/jeet) | [Documentation](http://jeetframework.com) | [Demos / Screencasts](http://jeetframework.com/demos) | [NPM package](https://npmjs.org/package/jeet)\n\nInstallation:\n---\n\n- Install NodeJS\n- `npm install -g jeet`\n- `jeet -h`\n\n```\nUsage: jeet [options] [command]\n\nCommands:\n    watch                   watch the current path and recompile CSS on changes\n    create <name>           create a new jeet project with the given name\n\n    Options:\n        -h, --help          output usage information\n        -V/-v, --version    output the version number\n```\n\nLiveReload Installation\n---\n\n- If you\'re using Sublime Text, disable your LiveReload plugin with it\n- Install a LiveReload [browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)\n- Once `jeet watch` is working it will notify you that LiveReload is active, open your browser and activate your LiveReload browser extension (usually just by clicking on it).\n\nCLI Usage\n---\n\n- `jeet create foo` or `jeet create .` to dump Jeet into current dir\n- `cd foo`\n- `jeet watch`\n\n`jeet create` will fetch the latest copy of Jeet from the repo. If it already has the latest copy or you don\'t have internet access, it will not fetch it and simply use the most recent copy of Jeet the package is equipped with. This makes project creation very fast and makes sure you have the latest/greatest version of Jeet created each time.\n\nJeet will watch your project for changes to `.styl` files within `/css`. It will concatenate and minify that CSS to `css/custom.css`. Jeet will also watch your `/js` automatically concatenate and minify most of your JavaScript (the ones that aren\'t already included as oldIE polyfills) including your `plugins.js`, `main.js`, and any new `.js` files in your `/js` dir.\n\nJeet 2\n---\n\nJeet 2\'s NPM package is still available under the [jeet2 branch](https://github.com/CorySimmons/jeet-npm/tree/jeet2)',
+120 silly publish   readmeFilename: 'README.md',
+120 silly publish   _id: 'jeet@3.0.5',
+120 silly publish   dist: { shasum: '6bd26387a8f16a3d0002e2cdac6cd39210a6900d' },
+120 silly publish   _from: '.' }
+121 verbose url raw jeet
+122 verbose url resolving [ 'https://registry.npmjs.org/', './jeet' ]
+123 verbose url resolved https://registry.npmjs.org/jeet
+124 info trying registry request attempt 1 at 20:12:15
+125 http PUT https://registry.npmjs.org/jeet
+126 http 409 https://registry.npmjs.org/jeet
+127 verbose url raw jeet
+128 verbose url resolving [ 'https://registry.npmjs.org/', './jeet' ]
+129 verbose url resolved https://registry.npmjs.org/jeet
+130 info trying registry request attempt 1 at 20:12:15
+131 http GET https://registry.npmjs.org/jeet
+132 http 200 https://registry.npmjs.org/jeet
+133 error publish fail Cannot publish over existing version.
+133 error publish fail Update the 'version' field in package.json and try again.
+133 error publish fail
+133 error publish fail If the previous version was published in error, see:
+133 error publish fail     npm help unpublish
+133 error publish fail
+133 error publish fail To automatically increment version numbers, see:
+133 error publish fail     npm help version
+134 error System Darwin 12.4.0
+135 error command "node" "/usr/local/bin/npm" "publish"
+136 error cwd /Users/cory/Dropbox/Repos/Github/jeet-npm
+137 error node -v v0.10.5
+138 error npm -v 1.3.11
+139 error code EPUBLISHCONFLICT
+140 verbose exit [ 1, true ]
