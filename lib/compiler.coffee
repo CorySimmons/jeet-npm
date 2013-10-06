@@ -1,10 +1,10 @@
 stylus = require "stylus"
-axis = require "axis-css"
 fs = require "fs"
+autoprefixer = require "autoprefixer"
 
 exports = module.exports = (path) ->
     file = fs.readFileSync path + "custom.styl"
-    stylus(file.toString(), { compress: true }).set('paths', [path]).use(axis()).render (err, css) ->
+    stylus(file.toString(), { compress: true }).set('paths', [path]).render (err, css) ->
         if err
             msg = err.message.split "\n"
             fileline = msg.shift().split ":"
@@ -24,5 +24,5 @@ exports = module.exports = (path) ->
             console.log msg.join("\n")
             console.log "````````````````````````````````````"
         else
-            fs.writeFile path + "custom.css", css, () ->
+            fs.writeFile path + "custom.css", autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7").compile(css), () ->
                 console.log "Recompiled custom.styl"
